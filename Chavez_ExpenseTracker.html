@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chavez expense_tracker</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {text-align: center;}
+        header {text-align: ;}
+        form {text-align: left;}
+        </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Expense Tracker</h1>
+    <header>
+
+    <section class="content">
+
+        <div class="form">
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" ><br>
+
+            <label for="name">Price:</label><br>
+            <input type="text" id="price" name="name" ><br><br>
+                   
+                
+    <span for="amount">Type:</span>
+<br>
+            <input type="radio" id="expense" name="fav_language" value="HTML">
+            <label for="html">Expense</label>
+
+            <input type="radio" id="income" name="fav_language" value="CSS">
+            <label for="income">Income</label><br>
+
+                
+            <button type="reset" class="buttonSave">Reset</button>
+            <button type="submit" class="buttonSave">Add</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="content">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody id="expenseTable">
+
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
